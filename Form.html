@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>Form</title>
+
+</head>
+
+
+
+<body>
+
+<!--Your HTML tags will start here-->
+ <p>
+        <a href="index.html"><b>Home</b></a> &nbsp; &nbsp;
+        <a href="Game Info.html"><b>Game Info</b></a> &nbsp; &nbsp;
+        <a href="Table.html"><b>Table</b></a> &nbsp; &nbsp;
+        <a href="Form.html"><b>Form</b></a> &nbsp; &nbsp;
+    </p>
+<h1>Hollow Knight Survey</h1>
+    <form action="file:///C:/Users/Trenton/Desktop/WHW1_AllemanTrenton/Form.html" method="POST">
+    <p>
+      <label for="first">First Name:</label>
+      <input type="text" name="first" id="first">
+    </p>
+    <p>
+      <label for="last">Last Name:</label>
+      <input type="text" name="last" id="last"><br><br>
+    <label for="options">Have You Ever Played Hollow Knight?</label>
+    <select id="options" name="options">
+        <option vaule="option1">Yes</option>
+        <option vaule="option2">no</option>
+    </select><br><br>
+    <p>How Difficult Was The Game to You?<br>
+    <label><input type="radio" name="Difficulty" value="Easy"> Easy</label><br>
+    <label><input type="radio" name="Difficulty" value="Medium"> Medium</label><br>
+    <label><input type="radio" name="Difficulty" value="Hard"> Hard</label><br>
+    <label><input type="radio" name="Difficulty" value="Very Hard"> Very Hard</label><br>
+    <label><input type="radio" name="Difficulty" vaule="N/A"> N/A</label><br>
+    </p>
+    <p>
+      <label for="Comment box"></label>
+      <textarea id="Comment box" name="Comment box" placeholder="If you Have played the game explain why you choose the difficulty. If you have not played it would you give it a try?" rows="15" cols="40"></textarea>
+   </p>
+   <p><input type="submit" value="Submit">  <input type="reset" value="Reset"></p>
+<style>
+    Form {
+        background-color:midnightblue;
+     }
+     textarea {
+        background-color:crimson;
+     }
+     input[type="submit"] {
+        background-color:teal;
+     }
+     input[type="reset"] {
+        background-color: teal;
+     }
+   body {
+      background-color: black;
+      color: white;
+      text-align: center;
+   }
+     
+</style>
+
+</form>
+<!--Your HTML tags will end here-->
+
+</body>
+
+</html>
